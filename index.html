@@ -18,8 +18,7 @@
     </head>
 
     <body>
-        <!-- This is a button toggling the off-canvas -->
-        <button uk-toggle="target: #my-id" type="button"></button>
+  
 
         <!-- This is an anchor toggling the off-canvas -->
         <a href="#my-id" uk-toggle></a>
@@ -28,7 +27,19 @@
         <div id="my-id" uk-offcanvas>
             <div class="uk-offcanvas-bar">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <div>
+                    <form class="uk-search uk-search-default">
+                    <span uk-search-icon></span>
+                    <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                    <div>
+                        <button>click me</button>
+                        <button>click me</button>
+                        <button>click me</button>
+                    </div>
+                 </div>
             </div>
+            
         </div>
 
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
@@ -38,6 +49,8 @@
                     <div class="uk-position-center uk-position-small uk-text-center">
                         <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
                         <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                        <button uk-toggle="target: #my-id" type="button"></button>
+
                     </div>
                 </li>
                 <li>
@@ -45,6 +58,7 @@
                     <div class="uk-position-center uk-position-small uk-text-center">
                         <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
                         <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                        <button uk-toggle="target: #my-id" type="button"></button>
                     </div>
                 </li>
                 <li>
@@ -52,6 +66,7 @@
                     <div class="uk-position-center uk-position-small uk-text-center">
                         <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
                         <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
+                        <button uk-toggle="target: #my-id" type="button"></button>
                     </div>
                 </li>
             </ul>
