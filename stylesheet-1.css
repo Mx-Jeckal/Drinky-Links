@@ -18,3 +18,24 @@
     margin-right: 10px;
 
 }
+
+.logoSize {
+    width: 550px;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.slideShowText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    align-self: center;
+    color: white;
+    text-shadow: black (5px 5px 5px);
+}
+
+.slideShowBtn {
+    font-size: 1em;
+    color: white;
+    
+}
