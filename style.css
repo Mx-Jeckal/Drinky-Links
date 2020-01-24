@@ -1,4 +1,26 @@
-img{
-    width: 300px;
-    height: 300px;
+.fadeCard{
+    margin: 5px;
+    padding: 15px;
+    max-width: 33vw; 
+  
+}
+
+.fadeCard img {
+    width: 100%;
+}
+
+#fadeCardFather{
+    margin-left: 0;
+}
+
+#inst-btn{
+    float: right;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#video-btn{
+    float: left;
+    margin-top: 10px; 
+    border-radius: 6px;
 }
