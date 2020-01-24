@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     background-color:grey;
     margin-top: 440px;
@@ -7,5 +26,8 @@
 .uk-icon-button {
     margin-top: 75px;
     background-color: honeydew;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
