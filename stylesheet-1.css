@@ -16,11 +16,11 @@
     float: right;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 .logoSize {
-    width: 550px;
+    width: 100%;
+    height: auto;
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
 }
@@ -37,5 +37,5 @@
 .slideShowBtn {
     font-size: 1em;
     color: white;
-    
+
 }
