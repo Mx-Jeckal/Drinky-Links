@@ -1,0 +1,85 @@
+.headline {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    color: white;
+}
+
+.footer {
+
+    
+   
+    bottom: 0;
+    background-color:#7c8c05;
+    margin-top: 450px;
+    margin-bottom: 0px;
+    height: 75px;
+    width:100%;
+    left: 0;
+}
+
+.media-icons {
+    margin-top: 1px;
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+.uk-icon-button {
+  
+    background-color: white;
+    float: right;
+    margin-left: 8px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+
+.logoSize {
+    width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.slideShowText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    align-self: center;
+    color: white;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.slideShowBtn {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.navBtn {
+    display: inline-block;
+    width: 150px;
+    padding: 4px;
+    color: #fff;
+    border: transparent;
+    background: transparent;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+}
+
+.uk-offcanvas-bar {
+    background-color: #3e1e11;
+}
+
+
