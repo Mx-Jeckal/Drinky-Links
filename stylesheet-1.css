@@ -5,9 +5,16 @@
 }
 
 .footer {
-    background-color:grey;
-    margin-top: 440px;
-    height: 200px;
+
+    display:-webkit-box;
+    position: relative;
+    bottom: 0px;
+    background-color:#7c8c05;
+    margin-top: 450px;
+    height: 100px;
+    
+   
+
 }
 
 .uk-icon-button {
@@ -16,13 +23,24 @@
     float: right;
     margin-left: 10px;
     margin-right: 10px;
+   
 }
+
+.icons {
+
+    
+    margin-bottom: 20px;
+}
+
+
+
 
 .logoSize {
     width: 100%;
     height: auto;
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
+    margin-bottom: 10px;
 }
 
 .slideShowText {
