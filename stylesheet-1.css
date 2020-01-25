@@ -12,7 +12,7 @@
 
 .uk-icon-button {
     margin-top: 75px;
-    background-color: honeydew;
+    background-color: white;
     float: right;
     margin-left: 10px;
     margin-right: 10px;
@@ -31,7 +31,7 @@
     font-size: 2em;
     align-self: center;
     color: white;
-    text-shadow: black (5px 5px 5px);
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .slideShowBtn {
@@ -44,5 +44,7 @@
     text-align: center;
     outline: none;
     text-decoration: none;
+    filter: drop-shadow(5px 5px 10px black);
+
 
 }
