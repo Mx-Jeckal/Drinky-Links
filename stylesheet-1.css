@@ -6,33 +6,36 @@
 
 .footer {
 
-    
-   
     bottom: 0;
     background-color:#7c8c05;
     margin-top: 450px;
-    margin-bottom: 0px;
-    height: 75px;
+    margin-bottom: 10px;
+    height: 85px;
     width:100%;
     left: 0;
 }
 
 .media-icons {
+    bottom:0;  
     margin-top: 1px;
     margin-left: 8px;
     margin-right: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    padding: 20px;
 }
 
 
 
 .uk-icon-button {
-  
+    bottom:0;
     background-color: white;
     float: right;
     margin-left: 8px;
     margin-right: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 3px;
+    padding: 10px;
+
 }
 
 .logoSize {
