@@ -12,9 +12,55 @@
 
 .uk-icon-button {
     margin-top: 75px;
-    background-color: honeydew;
+    background-color: white;
     float: right;
     margin-left: 10px;
     margin-right: 10px;
-
 }
+
+.logoSize {
+    width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.slideShowText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    align-self: center;
+    color: white;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.slideShowBtn {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.navBtn {
+    display: inline-block;
+    width: 150px;
+    padding: 4px;
+    color: #fff;
+    border: transparent;
+    background: transparent;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+}
+
+.uk-offcanvas-bar {
+    background-color: #3e1e11;
+}
+
+

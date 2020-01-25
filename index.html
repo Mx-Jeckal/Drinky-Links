@@ -1,96 +1,115 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Drinky Links</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drinky Links</title>
 
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
 
-        <!-- UIkit JS -->
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="stylesheet-1.css">
-    </head>
+    <link rel="stylesheet" type="text/css" href="stylesheet-1.css">
+
+</head>
 
     <body>
-  
-
+    
         <!-- This is an anchor toggling the off-canvas -->
         <a href="#my-id" uk-toggle></a>
 
-        <!-- This is the off-canvas -->
+        <!-- This is the off-canvas menu bar -->
         <div id="my-id" uk-offcanvas>
-            <div class="uk-offcanvas-bar">
-                <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <div>
-                    <form class="uk-search uk-search-default">
+        
+        <!-- search bar -->
+        <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <div>
+                <form class="uk-search uk-search-default">
                     <span uk-search-icon></span>
                     <input class="uk-search-input" type="search" placeholder="Search...">
-                    </form>
-                    <div>
-                        <button>click me</button>
-                        <button>click me</button>
-                        <button>click me</button>
-                    </div>
-                 </div>
-            </div>
-            
+                </form>
+
+            <br>
+            <br>
+
+        <!-- navigation buttons -->
+        <div>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active">
+                    <button class="navBtn">click me</button></li>
+                    <br>
+                    <li><button class="navBtn">click me</button></li>
+                    <br>
+                    <li><button class="navBtn">click me</button></li>
+            </ul>
+        </div>
+        </div>
+        </div>
         </div>
 
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
-            <ul class="uk-slideshow-items">
-                <li>
-                    <img src="images/alcohol-3194824.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center">
-                        <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
-                        <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
-                        <button uk-toggle="target: #my-id" type="button"></button>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+        uk-slideshow="autoplay: true, animation: fade">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/alcohol-3194824-3600.jpg" alt="Photo of a bar with a glass strainer and shaker"
+                    class="logoSize uk-cover" uk-cover="" style="height: 313px; width: 470px;">
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                    </h2>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
 
-                    </div>
-                </li>
-                <li>
-                    <img src="images/alcohol-857380.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center">
-                        <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
-                        <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
-                        <button uk-toggle="target: #my-id" type="button"></button>
-                    </div>
-                </li>
-                <li>
-                    <img src="images/beverage-3486751.jpg" alt="" uk-cover>
-                    <div class="uk-position-center uk-position-small uk-text-center">
-                        <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
-                        <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
-                        <button uk-toggle="target: #my-id" type="button"></button>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </li>
+            <li>
+                <img src="Logo-Graphics/alcohol-857380-3600.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                    </h2>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                </div>
+            </li>
+            <li>
+                <img src="Logo-Graphics/cocktail-2098458-3600.jpg" alt="" uk-cover>
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                    </h2>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                </div>
+            </li>
+        </ul>
 
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-                uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-                uk-slideshow-item="next"></a>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
         </div>
 
         <div class="footer">
             <div id="image">
-                <img src="">
+            <img src="">
             </div>
 
-            <p>Footer text</p>
+        <p>Footer text</p>
 
-            <div class="">
-                <a href="" class="uk-icon-button" uk-icon="twitter"></a>
-                <a href="" class="uk-icon-button" uk-icon="facebook"></a>
-                <a href="" class="uk-icon-button" uk-icon="youtube"></a>
-                <a href="" class="uk-icon-button" uk-icon="github"></a>
-            </div>
+        <div class="">
+            <a href="" class="uk-icon-button" uk-icon="twitter"></a>
+            <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+            <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+            <a href="" class="uk-icon-button" uk-icon="github"></a>
         </div>
-    </body>
 
-    </html>
+</body>
+
+</html>
