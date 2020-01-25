@@ -45,6 +45,21 @@
     outline: none;
     text-decoration: none;
     filter: drop-shadow(5px 5px 10px black);
-
-
 }
+
+.navBtn {
+    display: inline-block;
+    width: 150px;
+    padding: 4px;
+    color: #fff;
+    border: transparent;
+    background: transparent;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+}
+
+.uk-offcanvas-bar {
+    background-color: #3e1e11;
+}
+
