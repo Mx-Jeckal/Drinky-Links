@@ -5,16 +5,17 @@
 }
 
 .footer {
-    background-color:grey;
-    height: 200px;
+    background-color: #222;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .uk-icon-button {
-    margin-top: 75px;
+    margin: 10px;
     background-color: white;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
+    
 }
 
 .logoSize {
@@ -46,26 +47,18 @@
     filter: drop-shadow(5px 5px 10px black);
 }
 
-/* .navBtn {
-    display: inline-block;
-    width: 150px;
-    padding: 4px;
-    color: #fff;
-    border: transparent;
-    background: transparent;
-    text-align: left;
-    outline: none;
-    text-decoration: none;
-} */
 
 .uk-offcanvas-bar {
-    background-color: rgb(58, 56, 56);
+    background-color: #222;
     width: 400px;
 }
 
 
-
 /* Maydel CSS */
+
+#test{
+    width: 50px;
+}
 
 .fadeCard{
     margin: 5px;
@@ -96,7 +89,7 @@
 
 
 #modal-dad{
-    height: 800px;
+    height: 1000px;
     background-color: transparent;
     position: fixed;
     overflow-y: auto;
@@ -108,4 +101,48 @@
     padding: 50px 0 150px 0;
 }
 
-/* button css */
+/* button css */    
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #222;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 16px;
+    width: 150px;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  i{
+      margin-right: 10px;
+  }
+  
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

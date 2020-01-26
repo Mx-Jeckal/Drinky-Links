@@ -23,12 +23,12 @@
     <div id="my-id" uk-offcanvas>
 
         <!-- search bar -->
-        <div class="uk-offcanvas-bar">
+        <div class="uk-offcanvas-bar" id="side-nav">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <div>
                 <form class="uk-search uk-search-default">
-                    <input class="uk-search-input" type="search" placeholder="Search..." id="searchInput"/>
-                    <a class="uk-button uk-button-default" href="#modal-full" uk-toggle id="test">Open</a>
+                    <input class="uk-search-input" type="search" placeholder="Search for a Drink" id="searchInput"/>
+                    <a class="uk-button uk-button-default" href="#modal-full" uk-toggle id="test"><i class="fas fa-search"></i></a>
                 </form>
                 <hr>
             
@@ -38,15 +38,15 @@
                     <ul class="uk-nav uk-nav-default">
                 
                         <li><a class="uk-button" href="#modal-full" uk-toggle id="cocktail">Cocktail</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Ordinary Drink</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="milk">Milk / Float / Shake</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Cocoa</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Shot</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Coffee / Tea</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Homemade Liqueur</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Beer</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Soft Drink / Soda</a></li>
-                        <li><a class="uk-button" href="#modal-full" uk-toggle id="test">Punch / Party Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Ordinary Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Milk / Float / Shake</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Cocoa</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Shot</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Coffee / Tea</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Homemade Liqueur</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Beer</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Soft Drink / Soda</a></li>
+                        <li><a class="uk-button" href="#modal-full" uk-toggle>Punch / Party Drink</a></li>
                 
                     </ul>
 
@@ -66,7 +66,7 @@
                             src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
 
                 </div>
             </li>
@@ -77,7 +77,7 @@
                             src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
             <li>
@@ -87,7 +87,7 @@
                             src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
         </ul>
@@ -114,22 +114,21 @@
 
 
 
-    <!-- <div class="footer">
-        <div id="image">
-            <img src="">
-        </div>
-
-        <p>Footer text</p>
-
-        <div class="">
+    <div class="footer">
+    
+        <div class="content">
             <a href="" class="uk-icon-button" uk-icon="twitter"></a>
             <a href="" class="uk-icon-button" uk-icon="facebook"></a>
             <a href="" class="uk-icon-button" uk-icon="youtube"></a>
-            <a href="" class="uk-icon-button" uk-icon="github"></a>
-        </div> -->
+            <a href="https://github.com/Mx-Jeckal/Drinky-Links" class="uk-icon-button" uk-icon="github"></a>
+        </div>
 
-
-        <!-- UIkit JS -->
+    </div>
+    
+    
+    
+    
+    <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
