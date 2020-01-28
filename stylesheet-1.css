@@ -6,7 +6,6 @@
 
 .footer {
     background-color:grey;
-    margin-top: 440px;
     height: 200px;
 }
 
@@ -37,6 +36,7 @@
 .slideShowBtn {
     display: inline-block;
     width: 200px;
+    border-radius: 10px;
     padding: 8px;
     color: #fff;
     border: 1px solid #fff;
@@ -50,7 +50,7 @@
 .navBtn {
     display: inline-block;
     width: 150px;
-    padding: 4px;
+    padding: 8px;
     color: #fff;
     border: transparent;
     background: transparent;
@@ -61,6 +61,36 @@
 
 .uk-offcanvas-bar {
     background-color: #3e1e11;
+    width: 400px;
 }
 
+#serchBtn {
+    display: inline-block;
+    width: 30%;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
 
+.uk-search-input {
+    width: 80%;
+}
+
+.drinkButton {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    filter: drop-shadow(5px 5px 10px black);
+}
