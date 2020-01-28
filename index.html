@@ -31,8 +31,8 @@
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <div>
                 <form class="uk-search uk-search-default">
-                    <span uk-search-icon></span>
                     <input class="uk-search-input" type="search" placeholder="Search...">
+                    <button id="serchBtn">GO!</button>
                 </form>
 
             <br>
@@ -42,11 +42,15 @@
         <div>
             <ul class="uk-nav uk-nav-default">
                 <li class="uk-active">
-                    <button class="navBtn">click me</button></li>
-                    <br>
-                    <li><button class="navBtn">click me</button></li>
-                    <br>
-                    <li><button class="navBtn">click me</button></li>
+                    <button id="cocktailBtn" uk-toggle="target: #my-id" class="drinkButton">Cocktails</button>
+                    <li><button id="shakesBtn" uk-toggle="target: #my-id" class="drinkButton">Milk Shakes & Floats</button>
+                    <li><button id="cocoaBtn" uk-toggle="target: #my-id" class="drinkButton">Cocoa</button>
+                    <li><button id="coffeeBtn" uk-toggle="target: #my-id" class="drinkButton">Coffee & Tea</button>
+                    <li><button id="homemadeBtn" uk-toggle="target: #my-id" class="drinkButton">Homemade Liqueur</button>
+                    <li><button id="punchBtn" uk-toggle="target: #my-id" class="drinkButton">Punch & Party Drinks</button>
+                    <li><button id="beerBtn" uk-toggle="target: #my-id" class="drinkButton">Beer</button>
+                    <li><button id="sodasBtn" uk-toggle="target: #my-id" class="drinkButton">Soft Drinks & Sodas</button>                
+                    </li>
             </ul>
         </div>
         </div>
@@ -99,7 +103,7 @@
         <div class="footer">
             <div id="image">
             <img src="">
-            </div>
+        </div>
 
         <p>Footer text</p>
 
