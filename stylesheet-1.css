@@ -193,6 +193,7 @@ i {
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: lightgray;
+    position:fixed;
 }
 
 .close-button:hover {
@@ -269,3 +270,10 @@ iframe {
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+#close-modal{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+  }
