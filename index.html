@@ -7,10 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drinky Links</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="stylesheet" type="text/css" href="stylesheet-1.css">
-    <script src="https://kit.fontawesome.com/b14c338307.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -37,16 +45,16 @@
 
                     <ul class="uk-nav uk-nav-default">
 
-                        <li><a class="uk-button" href="#modal-full" data-category="Cocktail" uk-toggle id="cocktail">Cocktail</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Ordinary_Drink" uk-toggle>Ordinary Drink</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Milk_/_Float_/_Shake" uk-toggle>Milk / Float / Shake</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Cocoa" uk-toggle>Cocoa</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Shot" uk-toggle>Shot</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Coffee_/_Tea" uk-toggle>Coffee / Tea</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Homemade_Liqueur" uk-toggle>Homemade Liqueur</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Beer" uk-toggle>Beer</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Soft_Drink" uk-toggle>Soft Drink / Soda</a></li>
-                        <li><a class="uk-button" href="#modal-full" data-category="Punch_/_Party_Drink" uk-toggle>Punch / Party Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Cocktail" uk-toggle id="cocktail">Cocktail</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Ordinary_Drink" uk-toggle>Ordinary Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Milk_/_Float_/_Shake" uk-toggle>Milk / Float / Shake</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Cocoa" uk-toggle>Cocoa</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Shot" uk-toggle>Shot</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Coffee_/_Tea" uk-toggle>Coffee / Tea</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Homemade_Liqueur" uk-toggle>Homemade Liqueur</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Beer" uk-toggle>Beer</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Soft_Drink" uk-toggle>Soft Drink / Soda</a></li>
+                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Punch_/_Party_Drink" uk-toggle>Punch / Party Drink</a></li>
 
                     </ul>
 
@@ -55,7 +63,7 @@
         </div>
     </div>
 
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true, animation: fade">
+    <!-- <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true, animation: fade">
         <ul class="uk-slideshow-items">
             <li>
                 <img src="images/alcohol-3194824-3600.jpg" alt="Photo of a bar with a glass strainer and shaker" class="logoSize uk-cover" uk-cover="" style="height: 313px; width: 470px;">
@@ -64,25 +72,55 @@
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
                     <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
+   -->
+    <!-- <body> -->
+
+    <!-- This is an anchor toggling the off-canvas -->
+    <!-- <a href="#my-id" uk-toggle></a> -->
+
+    <!-- This is the off-canvas menu bar -->
+    <!-- <div id="my-id" uk-offcanvas> -->
+
+    <!-- search bar -->
+    <!-- <div class="uk-offcanvas-bar">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <div>
+                <form class="uk-search uk-search-default">
+                    <input class="uk-search-input" type="search" placeholder="Search...">
+                    <button id="serchBtn">GO!</button>
+                </form>
+
+            <br>
+            <br> -->
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true, animation: fade">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/alcohol-3194824-3600.jpg" alt="Photo of a bar with a glass strainer and shaker" class="logoSize uk-cover" uk-cover="" style="height: 313px; width: 470px;">
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
+                    </h2>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
 
                 </div>
             </li>
             <li>
                 <img src="Logo-Graphics/alcohol-857380-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
-                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
-                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0"></p>
-                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
                 </div>
             </li>
             <li>
                 <img src="Logo-Graphics/cocktail-2098458-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
-                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
+                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
                 </div>
             </li>
         </ul>
