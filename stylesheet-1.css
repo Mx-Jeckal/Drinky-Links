@@ -5,10 +5,21 @@
 }
 
 .footer {
-    background-color:grey;
-    margin-top: 440px;
-    height: 200px;
+    background-color: #222;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
 }
+
+
+/* 
+.uk-icon-button {
+    margin: 10px;
+    background-color: white;
+    background-color:grey;
+    height: 200px;
+} */
 
 .uk-icon-button {
     margin-top: 75px;
@@ -37,6 +48,7 @@
 .slideShowBtn {
     display: inline-block;
     width: 200px;
+    border-radius: 10px;
     padding: 8px;
     color: #fff;
     border: 1px solid #fff;
@@ -47,10 +59,166 @@
     filter: drop-shadow(5px 5px 10px black);
 }
 
+.uk-offcanvas-bar {
+    background-color: #222;
+    width: 400px;
+}
+
+
+/* Maydel CSS */
+
+#test {
+    width: 50px;
+}
+
+.fadeCard {
+    margin: 5px;
+    padding: 15px;
+    max-width: 33vw;
+}
+
+.fadeCard img {
+    width: 100%;
+}
+
+#fadeCardFather {
+    margin-left: 0;
+}
+
+#inst-btn {
+    float: right;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#video-btn {
+    float: left;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#modal-dad {
+    height: 1000px;
+    background-color: transparent;
+    position: fixed;
+    overflow-y: auto;
+}
+
+#modal-div {
+    backdrop-filter: opacity(0.5);
+    min-height: 100%;
+    padding: 50px 0 150px 0;
+}
+
+
+/* button css */
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #222;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 16px;
+    width: 150px;
+    height: 60px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/* drinks instructions modal */
+
+.modal {
+    /* position: fixed;
+    left: 0;
+    top: 0; */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    /* visibility: hidden; */
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.modal-content {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+/* video links modal */
+
+iframe {
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+}
+
 .navBtn {
     display: inline-block;
     width: 150px;
-    padding: 4px;
+    padding: 8px;
     color: #fff;
     border: transparent;
     background: transparent;
@@ -61,6 +229,43 @@
 
 .uk-offcanvas-bar {
     background-color: #3e1e11;
+    width: 400px;
 }
 
+#serchBtn {
+    display: inline-block;
+    width: 25%;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
 
+.uk-search-input {
+    width: 70%;
+}
+
+.drinkButton {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.logoAnimate {
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
