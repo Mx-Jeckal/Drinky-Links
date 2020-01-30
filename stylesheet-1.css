@@ -4,6 +4,7 @@
     color: white;
 }
 
+/* Footer created by Johnathan edited by Maydel */
 .footer {
     background-color: #222;
     height: 100px;
@@ -12,15 +13,15 @@
     padding-top: 20px;
 }
 
-
-/* 
-.uk-icon-button {
+/* social media icon styling footer - not in use */
+/* .uk-icon-button {
     margin: 10px;
     background-color: white;
     background-color:grey;
     height: 200px;
 } */
 
+/* social media icon styling footer - 2 */
 .uk-icon-button {
     margin-top: 75px;
     background-color: white;
@@ -29,6 +30,7 @@
     margin-right: 10px;
 }
 
+/* size of logo - styled by Jennifer */
 .logoSize {
     width: 100%;
     height: auto;
@@ -36,8 +38,9 @@
     filter: drop-shadow(5px 5px 5px black);
 }
 
+/* style for slide show copy under logo */
 .slideShowText {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
     font-size: 2em;
     align-self: center;
@@ -45,6 +48,7 @@
     filter: drop-shadow(5px 5px 10px black);
 }
 
+/* button that opens off canvas menu */
 .slideShowBtn {
     display: inline-block;
     width: 200px;
@@ -59,11 +63,11 @@
     filter: drop-shadow(5px 5px 10px black);
 }
 
+/* off-canvas menu style */
 .uk-offcanvas-bar {
     background-color: #222;
     width: 400px;
 }
-
 
 /* Maydel CSS */
 
@@ -84,7 +88,7 @@
 #fadeCardFather {
     margin-left: 0;
 }
-
+/* Button for Modal - Maydel */
 #inst-btn {
     float: right;
     margin-top: 10px;
@@ -129,6 +133,7 @@
     margin: 5px;
 }
 
+/* margin for search icon */
 i {
     margin-right: 10px;
 }
@@ -227,12 +232,12 @@ iframe {
     text-decoration: none;
 }
 
-.uk-offcanvas-bar {
+/* .uk-offcanvas-bar {
     background-color: #3e1e11;
     width: 400px;
-}
+} */
 
-#serchBtn {
+#searchBtn {
     display: inline-block;
     width: 25%;
     padding: 8px;
@@ -240,9 +245,8 @@ iframe {
     color: #fff;
     border: 1px solid #fff;
     background: transparent;
-    text-align: center;
+    align-content: center;
     outline: none;
-    text-decoration: none;
 }
 
 .uk-search-input {
@@ -250,19 +254,25 @@ iframe {
 }
 
 .drinkButton {
-    display: inline-block;
     width: 200px;
-    padding: 8px;
     margin: 5px;
     border-radius: 10px;
-    color: #fff;
     border: 1px solid #fff;
     background: transparent;
     text-align: center;
     outline: none;
-    text-decoration: none;
     filter: drop-shadow(5px 5px 10px black);
 }
+
+/* .db1 {
+    background-color:transparent; 
+    color: white; 
+  }
+   */
+.drinkButton:hover {
+    background: dimgray;
+    
+  }
 
 .logoAnimate {
     animation-duration: 2s;
