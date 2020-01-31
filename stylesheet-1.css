@@ -18,6 +18,10 @@
     
 }
 
+.uk-nav{
+    text-align: center;
+}
+
 .logoSize {
     width: 100%;
     height: auto;
@@ -76,6 +80,7 @@
 
 #fadeCardFather{
     margin-left: 0;
+    margin-bottom: 170px;
 }
 
 #inst-btn{
@@ -177,6 +182,7 @@
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: lightgray;
+    margin-bottom: 10px;
 }
 
 .close-button:hover {
@@ -210,22 +216,6 @@ iframe {
     outline: none;
     text-decoration: none;
 }
-
-.drinkButton {
-    width: 200px;
-    margin: 5px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    background: transparent;
-    text-align: center;
-    outline: none;
-    filter: drop-shadow(5px 5px 10px black);
-}
-
-.drinkButton:hover {
-    background: dimgray;
-    
-  }
 
 .logoAnimate {
     animation-duration: 2s;

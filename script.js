@@ -243,23 +243,3 @@ $('.uk-button').on('click', function () {
   })
 
 })
-
-
-// $('#random').on('click', function(){
-//     var queryURL = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
-//      $.ajax({
-//         url: queryURL,
-//         method: "GET"
-//       }).then(function(response){
-//         console.log(response);
-    
-//         var randomDiv = $('#randomDiv');
-//         var drinkName = $('<h1>').text(response.drinks[0].strDrink);
-//         console.log(drinkName);
-//         var drinkImg = $('<img>');
-//         drinkImg.attr('src', response.drinks[0].strDrinkThumb);
-//         randomDiv.append(drinkName, drinkImg)
-
-//     });
-
-// });
