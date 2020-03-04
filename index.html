@@ -2,58 +2,69 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drinky Links</title>
 
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css"/>
+    <!-- local CSS -->
     <link rel="stylesheet" type="text/css" href="stylesheet-1.css">
+    <!-- fontawesome Link -->
+    <script src="https://kit.fontawesome.com/b14c338307.js" crossorigin="anonymous"></script>
+    <!-- animate CSS link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
-    <body>
-    
-        <!-- This is an anchor toggling the off-canvas -->
-        <a href="#my-id" uk-toggle></a>
+<body>
 
-        <!-- This is the off-canvas menu bar -->
-        <div id="my-id" uk-offcanvas>
-        
+    <!-- This is an anchor toggling the off-canvas -->
+    <a href="#my-id" uk-toggle></a>
+
+    <!-- This is the off-canvas menu bar -->
+    <div id="my-id" uk-offcanvas>
+
         <!-- search bar -->
-        <div class="uk-offcanvas-bar">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <div class="uk-offcanvas-bar" id="side-nav">
             <div>
-                <form class="uk-search uk-search-default">
-                    <span uk-search-icon></span>
-                    <input class="uk-search-input" type="search" placeholder="Search...">
-                </form>
 
-            <br>
-            <br>
+                <div class="uk-margin" id="searchDiv">
+                    <form class="uk-search uk-search-default">
+                        <a href="#modal-full" class="uk-search-icon-flip" uk-search-icon uk-toggle id="test"></a>
+                        <input class="uk-search-input" type="search" placeholder="Search for a Drink" id="searchInput">
+                    </form>
+                </div>
 
-        <!-- navigation buttons -->
-        <div>
-            <ul class="uk-nav uk-nav-default">
-                <li class="uk-active">
-                    <button class="navBtn">click me</button></li>
-                    <br>
-                    <li><button class="navBtn">click me</button></li>
-                    <br>
-                    <li><button class="navBtn">click me</button></li>
-            </ul>
-        </div>
-        </div>
-        </div>
-        </div>
+                <hr>
+            
+                <!-- navigation buttons -->
+                <div>
+                    
+                    <ul class="uk-nav uk-nav-default">
+                
+                        <li><a class="uk-button" href="#modal-full" data-category="Cocktail" uk-toggle id="cocktail">Cocktail</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Ordinary_Drink" uk-toggle>Ordinary Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Milk_/_Float_/_Shake" uk-toggle>Milk / Float / Shake</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Cocoa" uk-toggle>Cocoa</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Shot" uk-toggle>Shot</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Coffee_/_Tea" uk-toggle>Coffee / Tea</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Homemade_Liqueur" uk-toggle>Homemade Liqueur</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Beer" uk-toggle>Beer</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Punch_/_Party_Drink" uk-toggle>Punch / Party Drink</a></li>
+                
+                    </ul>
 
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
         uk-slideshow="autoplay: true, animation: fade">
         <ul class="uk-slideshow-items">
             <li>
@@ -61,10 +72,10 @@
                     class="logoSize uk-cover" uk-cover="" style="height: 313px; width: 470px;">
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
-                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
 
                 </div>
             </li>
@@ -72,20 +83,20 @@
                 <img src="Logo-Graphics/alcohol-857380-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
-                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
             <li>
                 <img src="Logo-Graphics/cocktail-2098458-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
                     <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
-                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize">
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
         </ul>
@@ -94,8 +105,9 @@
             uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
             uk-slideshow-item="next"></a>
-        </div>
+    </div>
 
+<<<<<<< HEAD
         <div class="footer">
 
            
@@ -109,11 +121,46 @@
             <a href="" class="uk-icon-button" uk-icon="github"></a>
           </div>   
 
+=======
+    
+    <!-- modal here -->
+    <div id="modal-full" class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog" id="modal-dad">
+            <button class="uk-modal-close-full uk-close-large" type="button" uk-close id="close-modal"></button>
+            <div class="uk-grid-collapse uk-flex-middle" uk-grid id="modal-div">
+                <div class="uk-child-width-1-4@m uk-flex-center" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true" id="fadeCardFather"></div>
+            </div>
+                
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+    
+        <div class="content">
+            <a href="" class="uk-icon-button" uk-icon="twitter"></a>
+            <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+            <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+            <a href="https://github.com/Mx-Jeckal/Drinky-Links" class="uk-icon-button" uk-icon="github"></a>
+>>>>>>> 83680bcfd85b44eb661ea5e1a5f9bb95ba24af36
         </div>
         
         
        
 
+    </div>
+    
+    
+    
+    
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
