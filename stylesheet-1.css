@@ -8,13 +8,14 @@
     background-color: #222;
     height: 110px;
     width: 100%;
-    text-align: center;
     padding-top: 20px;
 }
 
 .content {
 
     display:block;
+    text-align: center;
+    
 }
 
 
