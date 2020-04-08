@@ -2,23 +2,22 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drinky Links</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
-
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
-    <!-- icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css"/>
+    <!-- local CSS -->
     <link rel="stylesheet" type="text/css" href="stylesheet-1.css">
+    <!-- fontawesome Link -->
+    <script src="https://kit.fontawesome.com/b14c338307.js" crossorigin="anonymous"></script>
+    <!-- animate CSS link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
@@ -32,36 +31,52 @@
 
         <!-- search bar -->
         <div class="uk-offcanvas-bar" id="side-nav">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
             <div>
-                <form class="uk-search uk-search-default">
-                    <input class="uk-search-input" type="search" placeholder="Search for a Drink" id="searchInput" />
-                    <a class="uk-button uk-button-default" href="#modal-full" uk-toggle id="test"><i class="fas fa-search"></i></a>
-                </form>
-                <hr>
 
+                <div class="uk-margin" id="searchDiv">
+                    <form class="uk-search uk-search-default">
+                        <a href="#modal-full" class="uk-search-icon-flip" uk-search-icon uk-toggle id="test"></a>
+                        <input class="uk-search-input" type="search" placeholder="Search for a Drink" id="searchInput">
+                    </form>
+                </div>
+
+                <hr>
+            
                 <!-- navigation buttons -->
                 <div>
-
+                    
                     <ul class="uk-nav uk-nav-default">
-
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Cocktail" uk-toggle id="cocktail">Cocktail</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Ordinary_Drink" uk-toggle>Ordinary Drink</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Milk_/_Float_/_Shake" uk-toggle>Milk / Float / Shake</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Cocoa" uk-toggle>Cocoa</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Shot" uk-toggle>Shot</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Coffee_/_Tea" uk-toggle>Coffee / Tea</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Homemade_Liqueur" uk-toggle>Homemade Liqueur</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Beer" uk-toggle>Beer</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Soft_Drink" uk-toggle>Soft Drink / Soda</a></li>
-                        <li><a class="uk-button" href="#modal-full" class="drinkButton" data-category="Punch_/_Party_Drink" uk-toggle>Punch / Party Drink</a></li>
-
+                
+                        <li><a class="uk-button" href="#modal-full" data-category="Cocktail" uk-toggle id="cocktail">Cocktail</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Ordinary_Drink" uk-toggle>Ordinary Drink</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Milk_/_Float_/_Shake" uk-toggle>Milk / Float / Shake</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Cocoa" uk-toggle>Cocoa</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Shot" uk-toggle>Shot</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Coffee_/_Tea" uk-toggle>Coffee / Tea</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Homemade_Liqueur" uk-toggle>Homemade Liqueur</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Beer" uk-toggle>Beer</a></li>
+                        <li><a class="uk-button" href="#modal-full" data-category="Punch_/_Party_Drink" uk-toggle>Punch / Party Drink</a></li>
+                
                     </ul>
 
                 </div>
             </div>
         </div>
     </div>
+
+ feature/jonathan-new-stuff
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+        uk-slideshow="autoplay: true, animation: fade">
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/alcohol-3194824-3600.jpg" alt="Photo of a bar with a glass strainer and shaker"
+                    class="logoSize uk-cover" uk-cover="" style="height: 313px; width: 470px;">
+                <div class="uk-position-center uk-position-small uk-text-center">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
+                    </h2>
+                    <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
 
 
 
@@ -74,34 +89,39 @@
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
                     <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+Jonathan
 
                 </div>
             </li>
             <li>
                 <img src="Logo-Graphics/alcohol-857380-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
-                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
             <li>
                 <img src="Logo-Graphics/cocktail-2098458-3600.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-position-small uk-text-center">
-                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
+                    <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0"><img
+                            src="Logo-Graphics/Drinky-Links-Logo-1.svg" class="logoSize logoAnimate bounce">
                     </h2>
                     <p class="slideShowText" uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">BARTEND LIKE A PRO</p>
-                    <button uk-toggle="target: #my-id" class="slideShowBtn">LEARN MORE</button>
+                    <button class="btn" uk-toggle="target: #my-id" style="vertical-align:middle"><span><i class="fa fa-bars"></i>MENU</span></button>
                 </div>
             </li>
         </ul>
 
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
     </div>
 
-
+    
     <!-- modal here -->
     <div id="modal-full" class="uk-modal-full" uk-modal>
       
@@ -109,31 +129,29 @@
            
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close id="close-modal"></button>
             <div class="uk-grid-collapse uk-flex-middle" uk-grid id="modal-div">
-                <div class="uk-child-width-1-5@m uk-flex-center" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true" id="fadeCardFather"></div>
+                <div class="uk-child-width-1-4@m uk-flex-center" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true" id="fadeCardFather"></div>
             </div>
-
+                
         </div>
         
     </div>
 
 
-
-
-
     <div class="footer">
-
+    
         <div class="content">
+            <p>Click for the latest social updates from Drinky Links</p>
             <a href="" class="uk-icon-button" uk-icon="twitter"></a>
             <a href="" class="uk-icon-button" uk-icon="facebook"></a>
             <a href="" class="uk-icon-button" uk-icon="youtube"></a>
             <a href="https://github.com/Mx-Jeckal/Drinky-Links" class="uk-icon-button" uk-icon="github"></a>
         </div>
-
+        
     </div>
-
-
-
-
+    
+    
+    
+    
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
