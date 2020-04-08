@@ -196,11 +196,11 @@
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: lightgray;
- feature/jonathan-new-stuff
+
     margin-bottom: 10px;
 
     position:fixed;
- Jonathan
+
 }
 
 .close-button:hover {
@@ -249,4 +249,4 @@ iframe {
     padding: 50px;
     font-size: 20px;
   }
- Jonathan
+
