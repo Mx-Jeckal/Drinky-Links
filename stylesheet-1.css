@@ -6,19 +6,18 @@
 
 .footer {
     background-color: #222;
-    height: 110px;
+    height: 100px;
     width: 100%;
     padding-top: 20px;
+    position: relative;
 }
 
 .content {
 
-    display:block;
     text-align: center;
-    
+    vertical-align: middle;
+
 }
-
-
 
 
 .uk-icon-button {
