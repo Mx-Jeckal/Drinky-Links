@@ -12,6 +12,14 @@
     padding-top: 20px;
 }
 
+.content {
+
+    display:block;
+}
+
+
+
+
 .uk-icon-button {
     margin: 10px;
     background-color: white;
