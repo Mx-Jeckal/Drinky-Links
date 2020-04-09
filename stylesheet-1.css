@@ -5,10 +5,10 @@
 }
 
 .footer {
-    background-color: #222;
+    background-color:teal;
     height: 110px;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 8px;
     position: relative;
     
 }
@@ -16,8 +16,17 @@
     text-align: center;
     display: block;
     height: 50px;
-}
+}   
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-decoration-color: wheat;
 
+}
 .uk-icon-button {
     margin: 10px;
     margin-bottom: 2px;
