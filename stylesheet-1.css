@@ -16,17 +16,15 @@
 .content {
 
     text-align: center;
-
-
+    display: block;
 }
-
 
 .uk-icon-button {
     margin: 10px;
-    background-color: white;
     margin-bottom: 2px;
     margin-top: 1px;
-    vertical-align: middle;
+    
+
 }
 
 .uk-nav{
