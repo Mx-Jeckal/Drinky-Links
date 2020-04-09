@@ -12,11 +12,10 @@
     position: relative;
     
 }
-
 .content {
-
     text-align: center;
     display: block;
+    height: 50px;
 }
 
 .uk-icon-button {
