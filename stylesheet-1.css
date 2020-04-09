@@ -5,17 +5,30 @@
 }
 
 .footer {
-    background-color: #222;
-    height: 100px;
-    width: 100%;
+
+    background-color:teal;
+    height: 115px;
+    width: 1350px;
+    padding-top: 6px;
+    position: relative;
     text-align: center;
-    padding-top: 20px;
+    
 }
+.content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    height: 50px;
+
+}   
 
 .uk-icon-button {
     margin: 10px;
-    background-color: white;
-    
+    margin-bottom: 2px;
+    margin-top: 1.5px;
+    height: 36px;
+    width:36px;
+
 }
 
 .uk-nav{
@@ -23,10 +36,11 @@
 }
 
 .logoSize {
-    width: 100%;
+    width: 120%;
     height: auto;
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
+    margin-bottom: 10px;
 }
 
 .slideShowText {
@@ -182,7 +196,11 @@
     cursor: pointer;
     border-radius: 0.25rem;
     background-color: lightgray;
+
     margin-bottom: 10px;
+
+    position:fixed;
+
 }
 
 .close-button:hover {
@@ -222,3 +240,13 @@ iframe {
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
+ feature/jonathan-new-stuff
+
+#close-modal{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+  }
+
