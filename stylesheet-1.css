@@ -5,33 +5,44 @@
 }
 
 .footer {
-    background-color: #222;
+    background-color:teal;
     height: 110px;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 8px;
     position: relative;
+    text-align: center;
     
 }
 .content {
-    text-align: center;
+    
     display: block;
     height: 50px;
-}
 
+}   
+
+.h3 {
+    
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 350;
+    color: #333333;
+    text-transform: none;
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+}
+ 
 .uk-icon-button {
     margin: 10px;
     margin-bottom: 2px;
     margin-top: 1px;
-    
+    height: 36px;
+    width:36px;
 
 }
 
 .uk-nav{
     text-align: center;
 }
-
-
-
 
 .logoSize {
     width: 120%;
