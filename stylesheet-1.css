@@ -8,9 +8,10 @@
 
     border: bisque;
     border-style: dotted;
+    border-radius: .1px;
     background-color:teal;
     height: 110px;
-    width: 100%;
+    width: 1350px;
     padding-top: 6px;
     position: relative;
     text-align: center;
